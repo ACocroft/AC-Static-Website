@@ -20,8 +20,8 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
-  --color-secondary: #161718;
+  --color-primary: #55096a;
+  --color-secondary: #410e36;
 }
 
 /* Smooth scroll behavior */
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #840b7e;
   text-decoration: none;
 }
 
@@ -726,8 +726,9 @@ h6 {
   inset: 0;
   opacity: 0;
   transition: all ease-in-out 0.3s;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 3;
+  font-size: 40px;
 }
 
 .gallery .gallery-links .preview-link,
