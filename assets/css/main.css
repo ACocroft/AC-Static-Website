@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #55096a;
+  --color-primary: #906b9b;
   --color-secondary: #410e36;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #840b7e;
+  color: #f0e6ef;
   text-decoration: none;
 }
 
@@ -708,12 +708,15 @@ h6 {
 # Pricing Section
 --------------------------------------------------------------*/
 .gallery {
-  margin-top: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
+  max-width: fit-content;
+  max-height: 100%;
   border-radius: 10px;
 }
 
@@ -722,7 +725,7 @@ h6 {
 }
 
 .gallery .gallery-links {
-  position: absolute;
+  position: relative;
   inset: 0;
   opacity: 0;
   transition: all ease-in-out 0.3s;
